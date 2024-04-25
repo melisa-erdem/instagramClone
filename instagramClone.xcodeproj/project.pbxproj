@@ -11,6 +11,7 @@
 		BF58F50F2BDB019100E70D7F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF58F50E2BDB019100E70D7F /* ContentView.swift */; };
 		BF58F5112BDB019200E70D7F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF58F5102BDB019200E70D7F /* Assets.xcassets */; };
 		BF58F5142BDB019200E70D7F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF58F5132BDB019200E70D7F /* Preview Assets.xcassets */; };
+		BF58F52C2BDB037E00E70D7F /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF58F52B2BDB037E00E70D7F /* MainTabView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		BF58F50E2BDB019100E70D7F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BF58F5102BDB019200E70D7F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BF58F5132BDB019200E70D7F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BF58F52B2BDB037E00E70D7F /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,12 +77,6 @@
 		BF58F51A2BDB01ED00E70D7F /* App */ = {
 			isa = PBXGroup;
 			children = (
-				BF58F52A2BDB02CB00E70D7F /* UploadPost */,
-				BF58F5292BDB02C500E70D7F /* TabBar */,
-				BF58F5282BDB02BE00E70D7F /* Search */,
-				BF58F5272BDB02B700E70D7F /* Profile */,
-				BF58F5262BDB02B000E70D7F /* Feed */,
-				BF58F5252BDB02A500E70D7F /* Authentication */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -88,6 +84,12 @@
 		BF58F51B2BDB01F300E70D7F /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				BF58F52A2BDB02CB00E70D7F /* UploadPost */,
+				BF58F5292BDB02C500E70D7F /* TabBar */,
+				BF58F5282BDB02BE00E70D7F /* Search */,
+				BF58F5272BDB02B700E70D7F /* Profile */,
+				BF58F5262BDB02B000E70D7F /* Feed */,
+				BF58F5252BDB02A500E70D7F /* Authentication */,
 			);
 			path = Core;
 			sourceTree = "<group>";
@@ -144,6 +146,7 @@
 		BF58F5292BDB02C500E70D7F /* TabBar */ = {
 			isa = PBXGroup;
 			children = (
+				BF58F52B2BDB037E00E70D7F /* MainTabView.swift */,
 			);
 			path = TabBar;
 			sourceTree = "<group>";
@@ -227,6 +230,7 @@
 			files = (
 				BF58F50F2BDB019100E70D7F /* ContentView.swift in Sources */,
 				BF58F50D2BDB019100E70D7F /* instagramCloneApp.swift in Sources */,
+				BF58F52C2BDB037E00E70D7F /* MainTabView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
